@@ -125,21 +125,3 @@ video.frame-media_left {
 .soundbutton.paused {
   opacity: 0.25;
 }
-
-/* Стили для кнопок */
-.contact-button,
-.photo-button {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  margin: 0 10px;
-  border-radius: 5px;
-  background-color: #3498db;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-}
-
-.contact-button:hover,
-.photo-button:hover {
-  background-color: #2980b9;
-}

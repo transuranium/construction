@@ -125,3 +125,15 @@ video.frame-media_left {
 .soundbutton.paused {
   opacity: 0.25;
 }
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+  .frame__content,
+  p {
+    font-size: 16px; /* Измените размер шрифта по вашему вкусу */
+  }
+
+  .frame__content {
+    font-size: 18px;
+  }
+}
